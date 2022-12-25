@@ -10,7 +10,7 @@ const Pet = (props) => {
   }
 
   return (
-    <Link href={`/details/${id}`} className="pet">
+    <Link to={`/details/${id}`} className="pet">
       <div className="image-container">
         <img src={hero} alt={name} />
       </div>
